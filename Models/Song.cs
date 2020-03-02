@@ -11,11 +11,6 @@ namespace RhythmApp.Models
     public string Length { get; set; }
     public string Genre { get; set; }
     public int AlbumId { get; set; }
-
     public Album Album { get; set; }
-
-    // navigation properties est releationship to cohort
-    // type of property that points to cohort
-    // public Cohort Cohort { get; set; }
   }
 }
